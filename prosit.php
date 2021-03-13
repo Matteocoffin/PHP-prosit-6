@@ -11,6 +11,7 @@ session_start();
     <body>
         <h1>Ma page web</h1>
         <?php
+        
             if(isset($_GET['previous'])){
                 $_SESSION['caractere'] -= 512; 
             }
